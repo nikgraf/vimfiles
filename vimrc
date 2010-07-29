@@ -1,3 +1,13 @@
+"Use Vim settings, rather then Vi settings (much better!).
+"This must be first, because it changes other options as a side effect.
+set nocompatible
+
+"allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+"store lots of :cmdline history
+set history=1000
+
 if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
