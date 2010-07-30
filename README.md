@@ -1,4 +1,6 @@
-# Usage
+# Vim-Files
+
+## Usage
 
 Then 'cd' into the repo and run this commands to get all the submodules
 
@@ -9,9 +11,10 @@ Setup correct Paths via this commands
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
-Add these Symlinks to run it correct
+## Symlinks
 
     ln -s submodules/vim-pathogen/autoload/ autoload
     ln -s ../submodules/csapprox bundle/csapprox
     ln -s ../submodules/nerdtree bundle/nerdtree
     ln -s ../submodules/vim-fugitive bundle/vim-fugitive
+    ln -s ../submodules/vim-rails bundle/vim-rails
