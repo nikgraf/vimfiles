@@ -19,3 +19,16 @@ else
     "dont load csapprox if there is no gui support - silences an annoying warning
     let g:CSApprox_loaded = 1
 endif
+
+"necessary on some Linux distros for pathogen to properly load bundles
+"also see exlpenation http://www.vim.org/scripts/script.php?script_id=2332
+filetype off
+
+"load pathogen managed plugins
+"this is necessary to load the bundles in bundle folder
+call pathogen#runtime_append_all_bundles()
+
+"load ftplugins and indent files
+"http://vimdoc.sourceforge.net/htmldoc/filetype.html
+filetype plugin on
+filetype indent on

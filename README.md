@@ -12,3 +12,4 @@ Setup correct Paths via this commands
 Add these Symlinks to run it correct
 
     ln -s submodules/vim-pathogen/autoload/ autoload
+    ln -s ../submodules/csapprox bundle/csapprox
