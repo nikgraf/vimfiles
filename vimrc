@@ -61,3 +61,8 @@ filetype indent on
 
 "turn on syntax highlighting
 syntax on
+
+"starting NERDTree
+autocmd VimEnter * NERDTree
+" NerdTree settings
+let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']

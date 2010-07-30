@@ -4,3 +4,6 @@
 [submodule "submodules/csapprox"]
 	path = submodules/csapprox
 	url = http://github.com/godlygeek/csapprox.git
+[submodule "submodules/nerdtree"]
+	path = submodules/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git

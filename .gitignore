@@ -1,2 +1,3 @@
 autoload
 bundle/csapprox
+bundle/nerdtree
