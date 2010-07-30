@@ -39,6 +39,11 @@ if has("gui_running")
 
     "setting colorschema from http://github.com/twerth/dotfiles/blob/master/etc/vim/colors/ir_black.vim
     colorscheme ir_black
+  
+    "starting NERDTree
+    autocmd VimEnter * NERDTree
+    " NerdTree settings
+    let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
 else
     "CSApprox http://www.vim.org/scripts/script.php?script_id=2390
     "dont load csapprox if there is no gui support - silences an annoying warning
@@ -61,8 +66,3 @@ filetype indent on
 
 "turn on syntax highlighting
 syntax on
-
-"starting NERDTree
-autocmd VimEnter * NERDTree
-" NerdTree settings
-let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
