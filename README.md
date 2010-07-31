@@ -18,3 +18,4 @@ Setup correct Paths via this commands
 ## Symlinks
 
     ln -s bundle/vim-pathogen/autoload/ autoload
+    ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes

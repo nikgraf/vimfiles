@@ -19,3 +19,6 @@
 [submodule "bundle/pyflakes-vim/ftplugin/python"]
 	path = bundle/pyflakes-vim/ftplugin/python
 	url = http://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = http://github.com/kevinw/pyflakes.git
