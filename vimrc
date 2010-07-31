@@ -36,7 +36,7 @@ if has("gui_running")
 
     "setting colorschema from http://github.com/twerth/dotfiles/blob/master/etc/vim/colors/ir_black.vim
     colorscheme ir_black
-  
+
     "starting NERDTree
     autocmd VimEnter * NERDTree
     " NerdTree settings
@@ -69,3 +69,7 @@ set autoindent
 
 " python files are indented by four
 autocmd FileType python set softtabstop=4 shiftwidth=4
+
+
+"removing trailing whitespace on writing a file
+autocmd BufWritePre * :%s/\s\+$//e
