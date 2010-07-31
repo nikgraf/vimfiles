@@ -28,6 +28,11 @@ To use JSLint you need Spidermonkey.
 To use Ack you have to install it on your System.
 For more Information see http://github.com/mileszs/ack.vim
 
+### Ack
+
+To use Ack you have to install it on your System.
+For more Information see http://github.com/mileszs/ack.vim
+
 ## Setup
 
 Then 'cd' into the repo and run this commands to get all the submodules
@@ -42,6 +47,14 @@ Setup correct Paths via this commands
 Add this link manually
 
     ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
+
+You may have problems with Command-T in Mac/Linux, because this plugin requires a native
+extension, so you will have to do this:
+
+    cd ~/.vim/bundle/Command-T/ruby/command-t
+    ruby extconf.rb
+    make
+
 
 ## Usage
 
