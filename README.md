@@ -15,6 +15,10 @@ Setup correct Paths via this commands
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
+Add this link manually
+
+    ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
+
 ## Symlinks
 
     ln -s bundle/vim-pathogen/autoload/ autoload
