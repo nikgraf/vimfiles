@@ -55,10 +55,9 @@ filetype off
 "this is necessary to load the bundles in bundle folder
 call pathogen#runtime_append_all_bundles()
 
-"load ftplugins and indent files (detecting filetype)
 "http://vimdoc.sourceforge.net/htmldoc/filetype.html
-filetype on
-filetype plugin on
+filetype on            " enables filetype detection
+filetype plugin on     " enables filetype specific plugins (ftplugins)
 filetype indent on
 
 "indent settings
