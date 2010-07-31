@@ -27,6 +27,8 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
+set ignorecase  "ignorecase for search
+set smartcase   "case-sensitive if there are upper-case letters in the search pattern
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
