@@ -13,8 +13,4 @@ Setup correct Paths via this commands
 
 ## Symlinks
 
-    ln -s submodules/vim-pathogen/autoload/ autoload
-    ln -s ../submodules/csapprox bundle/csapprox
-    ln -s ../submodules/nerdtree bundle/nerdtree
-    ln -s ../submodules/vim-fugitive bundle/vim-fugitive
-    ln -s ../submodules/vim-rails bundle/vim-rails
+    ln -s bundle/vim-pathogen/autoload/ autoload
