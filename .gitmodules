@@ -16,3 +16,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = http://github.com/ervandew/supertab.git
+[submodule "bundle/pyflakes-vim/ftplugin/python"]
+	path = bundle/pyflakes-vim/ftplugin/python
+	url = http://github.com/kevinw/pyflakes-vim.git

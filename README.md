@@ -2,6 +2,8 @@
 
 ## Usage
 
+You need a Vim version with Python and Ruby support.
+
 Then 'cd' into the repo and run this commands to get all the submodules
 
     git submodule init
