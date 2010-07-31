@@ -74,3 +74,7 @@ autocmd FileType python set softtabstop=4 shiftwidth=4
 
 "removing trailing whitespace on writing a file
 autocmd BufWritePre * :%s/\s\+$//e
+
+set wildmode=list:longest   "make cmdline tab completion similar to bash
+set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore=*.pyc,*.o,*.obj,*~ "stuff to ignore when tab completing
