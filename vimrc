@@ -34,6 +34,8 @@ if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
 
+    set guioptions-=T "remove the tool bar
+
     "setting colorschema from http://github.com/twerth/dotfiles/blob/master/etc/vim/colors/ir_black.vim
     colorscheme ir_black
 
