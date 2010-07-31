@@ -22,3 +22,6 @@
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = http://github.com/kevinw/pyflakes.git
+[submodule "bundle/jslint"]
+	path = bundle/jslint
+	url = http://github.com/hallettj/jslint.vim.git

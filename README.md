@@ -3,8 +3,16 @@
 ## Usage
 
 You need a Vim version with Python and Ruby support.
-* Vim Macports:     sudo port install vim +python +ruby
-* MacVim Macports:  sudo port install MacVim +python +ruby
+* Vim Macports:
+    sudo port install vim +python +ruby
+* MacVim Macports:
+    sudo port install MacVim +python +ruby
+
+A precondition for JSLint is Spidermonkey.
+* Macports
+    sudo port install spidermonkey
+* apt-get
+    sudo apt-get install spidermonkey-bin
 
 Then 'cd' into the repo and run this commands to get all the submodules
 
@@ -23,3 +31,5 @@ Add this link manually
 
     ln -s bundle/vim-pathogen/autoload/ autoload
     ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
+    ln -s ../bundle/jslint/plugin/jslint plugin/jslint
+
