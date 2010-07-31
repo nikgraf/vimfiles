@@ -1,18 +1,29 @@
 # Vim-Files
 
-## Usage
+## Vim
 
 You need a Vim version with Python and Ruby support.
-* Vim Macports:
+
+### Macports:
+
     sudo port install vim +python +ruby
-* MacVim Macports:
     sudo port install MacVim +python +ruby
 
-A precondition for JSLint is Spidermonkey.
-* Macports
+## Preconditions
+
+### JSLint
+
+To use JSLint you need Spidermonkey.
+
+#### Macports
+
     sudo port install spidermonkey
-* apt-get
+
+#### apt-get
+
     sudo apt-get install spidermonkey-bin
+
+## Setup
 
 Then 'cd' into the repo and run this commands to get all the submodules
 
@@ -27,9 +38,20 @@ Add this link manually
 
     ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
 
+## Usage
+
+### Update Submodules
+
+To update all the submodules run
+
+    git submodule foreach git pull
+
 ## Symlinks
 
     ln -s bundle/vim-pathogen/autoload/ autoload
-    ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
+
+JSLint only works correctly in plugin folder
     ln -s ../bundle/jslint/plugin/jslint plugin/jslint
+
+    ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
 
