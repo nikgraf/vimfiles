@@ -34,3 +34,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = http://github.com/mileszs/ack.vim.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = http://github.com/akitaonrails/Command-T.git
