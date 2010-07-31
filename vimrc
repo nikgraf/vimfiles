@@ -41,8 +41,19 @@ if has("gui_running")
     "setting colorschema from http://github.com/twerth/dotfiles/blob/master/etc/vim/colors/ir_black.vim
     colorscheme ir_black
 
+    if has("gui_mac") || has("gui_macvim")
+
+        " key binding for Command-T to behave properly
+        macmenu &File.New\ Tab key=<nop>
+        map <D-t> :CommandT<CR>
+
+        " make Mac's Option key behave as the Meta key
+        set invmmta
+    endif
+
     "starting NERDTree
-    autocmd VimEnter * NERDTree
+    map <F3> :NERDTreeToggle<CR>
+
     " NerdTree settings
     let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
 else
