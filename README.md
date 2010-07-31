@@ -3,6 +3,8 @@
 ## Usage
 
 You need a Vim version with Python and Ruby support.
+* Vim Macports:     sudo port install vim +python +ruby
+* MacVim Macports:  sudo port install MacVim +python +ruby
 
 Then 'cd' into the repo and run this commands to get all the submodules
 
