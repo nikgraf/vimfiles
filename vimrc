@@ -8,6 +8,9 @@ set backspace=indent,eol,start
 "store lots of :cmdline history
 set history=1000
 
+"turn on syntax highlighting
+syntax on
+
 set showcmd     "show incomplete cmds in the status line
 set showmode    "show current mode in the status line
 
@@ -23,12 +26,6 @@ set showbreak=... "characters showed if when a line is wrapped
 set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
-
-"indent settings
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set autoindent
 
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
@@ -64,5 +61,11 @@ filetype on
 filetype plugin on
 filetype indent on
 
-"turn on syntax highlighting
-syntax on
+"indent settings
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+
+" python files are indented by four
+autocmd FileType python set softtabstop=4 shiftwidth=4
