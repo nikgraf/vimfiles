@@ -15,6 +15,10 @@ You need a Vim version with Python and Ruby support.
 
 To use JSLint you need Spidermonkey.
 
+#### Homebrew on Mac
+
+    brew install spidermonkey
+
 #### Macports
 
     sudo port install spidermonkey
@@ -32,8 +36,7 @@ For more Information see http://github.com/mileszs/ack.vim
 
 Then 'cd' into the repo and run this commands to get all the submodules
 
-    git submodule init
-    git submodule update
+    git submodule update --init
 
 Setup correct Paths via this commands
 
