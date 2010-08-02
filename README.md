@@ -65,9 +65,5 @@ To update all the submodules run
 ## Symlinks
 
     ln -s bundle/vim-pathogen/autoload/ autoload
-
-JSLint only works correctly in plugin folder
-    ln -s ../bundle/jslint/plugin/jslint plugin/jslint
-
     ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
 
