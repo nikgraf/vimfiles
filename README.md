@@ -62,7 +62,7 @@ To update all the submodules run
 
 ## Credits
 
-Nik Graf @nikgraf
-Martin Schürrer @msch
+- Nik Graf @nikgraf
+- Martin Schürrer @msch
 
 Special Thanks to Thomas Schranz @__tosh and Petyo Ivanov @petyosi.
