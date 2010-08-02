@@ -13,15 +13,8 @@ You need a Vim version with Python and Ruby support.
 
 ### JSLint
 
-To use JSLint you need Spidermonkey.
-
-#### Homebrew on Mac
-
-    brew install spidermonkey
-
-#### Macports
-
-    sudo port install spidermonkey
+To use JSLint you need a Javascript Commandline Tool like Spidermonkey.
+On Mac OS X you don't need to install anything cause it uses JavaScriptCore directly.
 
 #### apt-get
 
@@ -67,3 +60,9 @@ To update all the submodules run
     ln -s bundle/vim-pathogen/autoload/ autoload
     ln -s ../../../pyflakes/ bundle/pyflakes-vim/ftplugin/python/pyflakes
 
+## Credits
+
+Nik Graf @nikgraf
+Martin Schürrer @msch
+
+Special Thanks to Thomas Schranz @__tosh and Petyo Ivanov @petyosi.
