@@ -43,3 +43,6 @@
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
 	url = http://github.com/tpope/vim-cucumber.git
+[submodule "bundle/vim-soy/syntax"]
+	path = bundle/vim-soy/syntax
+	url = git://gist.github.com/367358.git
