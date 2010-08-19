@@ -93,3 +93,8 @@ map <F4> :TlistToggle<cr>
 
 " NerdTree settings
 let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
+
+" Taglist option
+let Tlist_Exit_OnlyWindow = 1 " exit if taglist is last window open
+let Tlist_Show_One_File = 1   " Only show tags for current buffer
+
