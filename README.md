@@ -25,6 +25,11 @@ On Mac OS X you don't need to install anything cause it uses JavaScriptCore dire
 To use Ack you have to install it on your System.
 For more Information see http://github.com/mileszs/ack.vim
 
+### Ctags
+
+To use Taglist and jumping to definitions you have to install it on your System.
+For more Information see http://ctags.sourceforge.net/
+
 ## Setup
 
 Then 'cd' into the repo and run this commands to get all the submodules

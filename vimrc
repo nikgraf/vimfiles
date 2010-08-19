@@ -50,12 +50,6 @@ if has("gui_running")
         " make Mac's Option key behave as the Meta key
         set invmmta
     endif
-
-    "starting NERDTree
-    map <F3> :NERDTreeToggle<CR>
-
-    " NerdTree settings
-    let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
 else
     "CSApprox http://www.vim.org/scripts/script.php?script_id=2390
     "dont load csapprox if there is no gui support - silences an annoying warning
@@ -91,3 +85,11 @@ autocmd BufWritePre * :%s/\s\+$//e
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.pyc,*.o,*.obj,*~ "stuff to ignore when tab completing
+
+"toogle BufExplorer, NERDTree, Taglist
+map <F2> :BufExplorer<CR>
+map <F3> :NERDTreeToggle<CR>
+map <F4> :TlistToggle<cr>
+
+" NerdTree settings
+let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
