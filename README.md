@@ -27,7 +27,7 @@ For more Information see http://github.com/mileszs/ack.vim
 
 ### Ctags
 
-To use Taglist and jumping to definitions you have to install it on your System.
+To use Taglist and jumping to definitions you have to install Ctags on your System.
 For more Information see http://ctags.sourceforge.net/
 
 ## Setup
