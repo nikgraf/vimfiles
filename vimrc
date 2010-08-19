@@ -89,7 +89,8 @@ set wildignore=*.pyc,*.o,*.obj,*~ "stuff to ignore when tab completing
 "toogle BufExplorer, NERDTree, Taglist
 map <F2> :BufExplorer<CR>
 map <F3> :NERDTreeToggle<CR>
-map <F4> :TlistToggle<cr>
+map <F4> :TlistToggle<CR>
+map <F8> :!ctags -R *<CR>
 
 " NerdTree settings
 let NERDTreeIgnore=['\~$', '\.swp$', '\.pyc$']
