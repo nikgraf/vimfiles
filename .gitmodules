@@ -46,3 +46,6 @@
 [submodule "bundle/vim-taglist"]
 	path = bundle/vim-taglist
 	url = http://github.com/clones/vim-taglist.git
+[submodule "bundle/jslint"]
+	path = bundle/jslint
+	url = http://github.com/hallettj/jslint.vim.git
