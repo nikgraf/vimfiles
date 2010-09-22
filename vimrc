@@ -42,13 +42,11 @@ if has("gui_running")
     colorscheme ir_black
 
     if has("gui_mac") || has("gui_macvim")
-
         " key binding for Command-T to behave properly
         macmenu &File.New\ Tab key=<nop>
         map <D-t> :CommandT<CR>
 
-        " make Mac's Option key behave as the Meta key
-        set invmmta
+        set invmmta " make Mac's Option key behave as the Meta key
     endif
 else
     "CSApprox http://www.vim.org/scripts/script.php?script_id=2390
