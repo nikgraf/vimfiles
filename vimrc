@@ -19,7 +19,7 @@ set laststatus=2 " always show the status line
 set mouse=a " have the mouse enabled all the time
 set ttymouse=xterm2 " TODO magic stuff to enable the mouse
 
-set number      "add line numbers
+set relativenumber " show relative line numbers
 set showbreak=... "characters showed if when a line is wrapped
 
 "vertical/horizontal scroll off settings
