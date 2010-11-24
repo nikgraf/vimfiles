@@ -49,3 +49,6 @@
 [submodule "bundle/jslint"]
 	path = bundle/jslint
 	url = http://github.com/hallettj/jslint.vim.git
+[submodule "bundle/scss-syntax.vim"]
+	path = bundle/scss-syntax.vim
+	url = https://github.com/cakebaker/scss-syntax.vim.git
