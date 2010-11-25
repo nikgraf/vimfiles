@@ -11,6 +11,10 @@ set history=1000
 "turn on syntax highlighting
 syntax on
 
+set backupdir=~/.vim/backupfiles,/var/tmp,/tmp,. " Backup directory
+set directory=~/.vim/swapfiles,/var/tmp,/tmp,.   " Swapfile directory
+
+
 set showcmd     "show incomplete cmds in the status line
 set showmode    "show current mode in the status line
 
@@ -67,6 +71,7 @@ filetype indent on
 
 "indent settings
 set shiftwidth=2
+set tabstop=2
 set softtabstop=2
 set expandtab
 set autoindent
