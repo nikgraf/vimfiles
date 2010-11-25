@@ -39,6 +39,7 @@ Then 'cd' into the repo and run this commands to get all the submodules
 Setup correct Paths via this commands
 
     ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
 
 Add this link manually
 
@@ -57,6 +58,11 @@ extension, so you will have to do this:
 ### Update Submodules
 
 To update all the submodules run
+
+    git pull
+    git submodule update --init
+
+Creator should do
 
     git submodule foreach git pull
 
