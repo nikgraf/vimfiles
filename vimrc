@@ -25,6 +25,7 @@ set ttymouse=xterm2 " TODO magic stuff to enable the mouse
 
 set relativenumber " show relative line numbers
 set showbreak=... "characters showed if when a line is wrapped
+set ruler " display cursor position in status line
 
 "vertical/horizontal scroll off settings
 set scrolloff=3
